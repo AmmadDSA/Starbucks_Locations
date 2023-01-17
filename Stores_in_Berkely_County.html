@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_50fd90c9b137f2f4a4858ecceda7efec {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_50fd90c9b137f2f4a4858ecceda7efec" ></div>
+        
+</body>
+<script>    
+    
+            var map_50fd90c9b137f2f4a4858ecceda7efec = L.map(
+                "map_50fd90c9b137f2f4a4858ecceda7efec",
+                {
+                    center: [37.88, -122.26],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a7d608d745b6e36a32f91d85f77dc310 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_50fd90c9b137f2f4a4858ecceda7efec);
+        
+    
+            var marker_5bdfe91e9d4f1a09f3c16fd0c4114ffc = L.marker(
+                [37.8688395, -122.26823],
+                {}
+            ).addTo(map_50fd90c9b137f2f4a4858ecceda7efec);
+        
+    
+        var popup_222b8e08f2baef17cdb8d1000148bca9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aac594bcdac709fe3365a153ed09f737 = $(`<div id="html_aac594bcdac709fe3365a153ed09f737" style="width: 100.0%; height: 100.0%;">2224 Shattuck - Berkeley</div>`)[0];
+            popup_222b8e08f2baef17cdb8d1000148bca9.setContent(html_aac594bcdac709fe3365a153ed09f737);
+        
+
+        marker_5bdfe91e9d4f1a09f3c16fd0c4114ffc.bindPopup(popup_222b8e08f2baef17cdb8d1000148bca9)
+        ;
+
+        
+    
+    
+            var marker_c788b282109b54deb9926762a2b3abd1 = L.marker(
+                [37.891477, -122.2800136],
+                {}
+            ).addTo(map_50fd90c9b137f2f4a4858ecceda7efec);
+        
+    
+        var popup_205802d0dd2a4cdbcbd97f96de15b4ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d968fe2931053aec4b4460de802e3b64 = $(`<div id="html_d968fe2931053aec4b4460de802e3b64" style="width: 100.0%; height: 100.0%;">Solano Ave</div>`)[0];
+            popup_205802d0dd2a4cdbcbd97f96de15b4ab.setContent(html_d968fe2931053aec4b4460de802e3b64);
+        
+
+        marker_c788b282109b54deb9926762a2b3abd1.bindPopup(popup_205802d0dd2a4cdbcbd97f96de15b4ab)
+        ;
+
+        
+    
+    
+            var marker_b087bdfe3312633745b06b172a9b35b2 = L.marker(
+                [37.88117704104281, -122.26986861045268],
+                {}
+            ).addTo(map_50fd90c9b137f2f4a4858ecceda7efec);
+        
+    
+        var popup_0a553896ba8ad573716f6b8295d9fa3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92c451d339965813bec90d6f10166a87 = $(`<div id="html_92c451d339965813bec90d6f10166a87" style="width: 100.0%; height: 100.0%;">Safeway - Berkeley #691</div>`)[0];
+            popup_0a553896ba8ad573716f6b8295d9fa3c.setContent(html_92c451d339965813bec90d6f10166a87);
+        
+
+        marker_b087bdfe3312633745b06b172a9b35b2.bindPopup(popup_0a553896ba8ad573716f6b8295d9fa3c)
+        ;
+
+        
+    
+    
+            var marker_8edb54f9afaa0a0bd26c517fa8207ef9 = L.marker(
+                [37.8557986, -122.2595257],
+                {}
+            ).addTo(map_50fd90c9b137f2f4a4858ecceda7efec);
+        
+    
+        var popup_7fdf4f317fa875bd86e502e07be9d0e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e92d6bfa1ac057a6d2177feeaf36fab7 = $(`<div id="html_e92d6bfa1ac057a6d2177feeaf36fab7" style="width: 100.0%; height: 100.0%;">Telegraph & Ashby</div>`)[0];
+            popup_7fdf4f317fa875bd86e502e07be9d0e9.setContent(html_e92d6bfa1ac057a6d2177feeaf36fab7);
+        
+
+        marker_8edb54f9afaa0a0bd26c517fa8207ef9.bindPopup(popup_7fdf4f317fa875bd86e502e07be9d0e9)
+        ;
+
+        
+    
+    
+            var marker_cb91f9b1181fbc9e91086b78c2f8fd89 = L.marker(
+                [37.870253149999996, -122.26609492936619],
+                {}
+            ).addTo(map_50fd90c9b137f2f4a4858ecceda7efec);
+        
+    
+        var popup_68c938c09a864689f59c7107dd666b0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7dd2fe4c2cb9d3f1c4e695f1e497561c = $(`<div id="html_7dd2fe4c2cb9d3f1c4e695f1e497561c" style="width: 100.0%; height: 100.0%;">2128 Oxford St.</div>`)[0];
+            popup_68c938c09a864689f59c7107dd666b0a.setContent(html_7dd2fe4c2cb9d3f1c4e695f1e497561c);
+        
+
+        marker_cb91f9b1181fbc9e91086b78c2f8fd89.bindPopup(popup_68c938c09a864689f59c7107dd666b0a)
+        ;
+
+        
+    
+</script>
